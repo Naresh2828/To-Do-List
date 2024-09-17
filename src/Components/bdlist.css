@@ -1,0 +1,46 @@
+
+
+.container{
+    
+    margin:rosybrown;
+    margin-right: 30px;
+}
+
+
+
+
+.ImageCss {
+    
+border-radius: 50px;
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+}span {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif
+
+    
+}
+.ag{
+    margin-top: 10px;
+    
+}
+
+
+
+.ed{
+    margin-left: 10px;
+    margin-bottom: 100px;
+    padding-left: 50%;
+
+}
+.button{
+   position:absolute ;
+    margin-left:50%;
+    margin-top: 100px;
+
+
+}
