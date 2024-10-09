@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./App.css"
+// import "./App.css"
 import ScamPeople from "./Components/ScamPeople"
 import ViratKohli from "./Components/ViratKohli"
 import StateCount from "./Components/StateCount"
@@ -54,7 +54,7 @@ function App() {
     <ViratKohli/> */}
     {/* <GroceryComp/> */}
   
-    <ToDo/>
+    {/* <ToDo/> */}
     {/* <NareshDiwakar/> */}
     {/* <CounterProvider>
     <CartCount/>
@@ -79,7 +79,7 @@ function App() {
       {/* <ListRender/> */}
       {/* <ApiCall/> */}
       {/* <UseReducer/> */}
-      {/* <ApiEffect/> */}
+      <ApiEffect/>
       {/* <PropsComp name={"Naresh"}age={20}/> */}
       {/* <PropsComp names={["Naresh","Diwakar","Sherif"]}/> */}
       {/* {islog ? null : <UseEffect />} */}
