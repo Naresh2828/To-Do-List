@@ -24,7 +24,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import 'bootstrap/dist/js/bootstrap';
+import 'bootstrap/dist/js/bootstrap'; 
+import CartCount from "./Components/CartCount"
+import ProductCart from "./Components/ProductCart"
+import { CounterProvider } from "./Components/Context/CounterContext"
+import ToDo from "./Components/ToDo"
+
 
 function App() {
   // const [islog, setislog] = useState(false)
@@ -48,7 +53,13 @@ function App() {
       {/* <ScamPeople/>
     <ViratKohli/> */}
     {/* <GroceryComp/> */}
-    {/* <NareshDiwakar/> */}.
+  
+    <ToDo/>
+    {/* <NareshDiwakar/> */}
+    {/* <CounterProvider>
+    <CartCount/>
+    <ProductCart/>
+    </CounterProvider> */}
     {/* <ComPlete/> */}
     {/* <InputComp/> */}
     {/* <ReactProject/> */}
@@ -68,7 +79,7 @@ function App() {
       {/* <ListRender/> */}
       {/* <ApiCall/> */}
       {/* <UseReducer/> */}
-      <ApiEffect/>
+      {/* <ApiEffect/> */}
       {/* <PropsComp name={"Naresh"}age={20}/> */}
       {/* <PropsComp names={["Naresh","Diwakar","Sherif"]}/> */}
       {/* {islog ? null : <UseEffect />} */}

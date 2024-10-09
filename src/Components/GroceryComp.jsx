@@ -31,6 +31,7 @@ const handlepost=()=>{
 
 
 
+
     return(
         <>
         <h1>Grocery Store</h1>
@@ -40,7 +41,7 @@ const handlepost=()=>{
             <div>
                 <h2>{i+1}. {da.grocery}</h2>
                 <span><FaEdit/> </span>
-                <span><MdDelete/></span>
+                <span ><MdDelete/></span>
 
             </div>
         ))}

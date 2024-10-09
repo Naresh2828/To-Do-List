@@ -1,0 +1,59 @@
+body {
+background-color:lightslategray;}
+
+
+
+h1 {
+    color:black;
+    letter-spacing: 1px;
+    padding-left: 20%;
+}
+
+input {
+    border-radius: 50px;
+    border:  solid black;
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 2.5em;
+    width: 250px;
+    padding-left: 50px;
+}
+
+
+#itemlist {
+    height: 600px;
+    width: 500px;
+    margin: 100px auto;
+    margin-bottom: 100px auto;
+    background-color: lightcoral;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.pr {
+
+    color: currentColor;
+    font-size: 28px;
+    margin-top: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    margin-left: 100px;
+
+}
+
+button {
+    margin-top: 0px;
+    margin-left: 2px;
+    background-color: black;
+    border-radius: 40px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: red;
+}
+
+button:hover {
+    cursor: pointer;
+}
